@@ -1,0 +1,117 @@
+/* White header for all pages */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    height: 90px;
+    width: 100%;
+}
+
+/* My name with teal box */
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 200px;
+}
+
+/* Navigation to other pages */
+nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    left: 1000px;
+    bottom:70px; 
+}
+
+/* Grey footer with teal top border */
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* Heading for the page */
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    float: left;
+}
+
+/* Line under heading for the page */
+hr {
+
+    border-top: 3px solid #cccccc;
+    position: relative;
+    top: 30px;
+    height: 3px;
+    width: 95%;
+}
+
+/* About me paragraph */
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* float: left; */
+    color: #777777;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+/* Profile picture */
+img.profilepic {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 50px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+/* White box */
+div {
+    background-color: #ffffff;
+    width: 960px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+/* Background pattern */
+body {
+    background-image: url(../images/light_grey.png)
+}
+
+/* Forms */
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+/* Input for forms */
+input {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 5px;
+}
+
+/* Input for message form */
+.message {
+    line-height:1400%;
+}
