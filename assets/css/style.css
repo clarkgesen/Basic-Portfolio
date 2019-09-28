@@ -91,6 +91,17 @@ div {
     top: 100px;
 }
 
+/* Larger box for portfolio links  */
+.portfolio_box {
+    background-color: #ffffff;
+    width: 960px;
+    height: 700px;
+    left: 200px;
+    top: 100px;
+}
+
+
+
 /* Background pattern */
 body {
     background-image: url(../images/light_grey.png)
@@ -115,11 +126,13 @@ input {
     line-height:1400%;
 }
 
+/* Size of pictures */
 .portfolio_pic{
     width: 200px;
     height: 200px;
 }
 
+/* Position for first picture */
 .first_pic{
     position: absolute;
     top: 125px;
@@ -129,6 +142,7 @@ input {
 
 }
 
+/* Position for second picture */
 .second_pic{
     position: absolute;
     top: 125px;
@@ -137,6 +151,7 @@ input {
     height: 200px;
 }
 
+/* Position for third picture */
 .third_pic{
     position: absolute;
     top: 125px;
@@ -145,6 +160,16 @@ input {
     height: 200px;
 }
 
+/* Position for fourth picture */
+.fourth_pic{
+    position: absolute;
+    top: 375px;
+    left:50px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Formatting for links */
 h3{
     background-color: #4aaaa5;
     position: absolute;
@@ -158,6 +183,7 @@ h3{
 
 }
 
+/* Makes the links white */
 .portfolio_link{
     color: white;
 }
