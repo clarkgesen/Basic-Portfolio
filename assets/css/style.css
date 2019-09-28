@@ -51,13 +51,12 @@ h2 {
 }
 
 /* Line under heading for the page */
-hr {
-
+hr { 
     border-top: 3px solid #cccccc;
     position: relative;
     top: 30px;
-    height: 3px;
     width: 95%;
+
 }
 
 /* About me paragraph */
@@ -114,4 +113,51 @@ input {
 /* Input for message form */
 .message {
     line-height:1400%;
+}
+
+.portfolio_pic{
+    width: 200px;
+    height: 200px;
+}
+
+.first_pic{
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.second_pic{
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.third_pic{
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    width: 200px;
+    height: 200px;
+}
+
+h3{
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 190px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.portfolio_link{
+    color: white;
 }
